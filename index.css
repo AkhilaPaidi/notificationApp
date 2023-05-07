@@ -1,0 +1,77 @@
+/* Write your code here. */
+.notify-class-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-size: 35px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 45px;
+  }
+}
+.notify-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 500px;
+}
+@media screen and (min-width: 768px) {
+  .notify-list-container {
+    width: 60%;
+  }
+}
+
+.notify-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+@media screen and (min-width: 768px) {
+  .notify-container {
+    margin-bottom: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 13px;
+    padding-left: 13px;
+  }
+}
+.primary-bg-color {
+  background-color: #0b69ff;
+}
+
+.success-bg-color {
+  background-color: #2dca73;
+}
+.warning-bg-color {
+  background-color: #ffb800;
+}
+.error-bg-color {
+  background-color: #ff0b37;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+  padding-right: 10px;
+}
+
+.message {
+  color: #fff;
+  font-family: "roboto";
+  font-size: 18px;
+  font-weight: 500;
+}
